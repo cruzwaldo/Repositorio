@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -8,24 +8,34 @@ html {
     font-size: 62.5%;
 }
 
-main {
+header{
+    background: #424040;
+background: linear-gradient(90deg,rgba(66, 64, 64, 1) 0%, rgba(92, 92, 94, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    text-align: center;
+    }
+main{
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 87vh;
+    background-color: rgb(56, 58, 57);
+  
 }
-
 .menu {
     padding: 10 px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 30px;
-    text decoration: none;
+    
      }
 .menu_link{
     text-decoration: none;
-    color: white;
-    font-size: 2rem;
+    color: rgb(0, 0, 0);
     font-size: 30px;
     font-family: "Noto Serif Display", serif;
+       
 
 }
 .menu_list {
@@ -36,11 +46,51 @@ main {
    
     
 }
-header{
-    background: #111212;
-background: linear-gradient(90deg,rgba(17, 18, 18, 1) 0%, rgba(31, 45, 171, 1) 50%, rgba(13, 12, 11, 1) 100%);
+
+span{
+    color: rgb(0, 0, 0);
+}
+
+body{
+
 
 }
-span{
-    color: white;
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: "Noto Serif Display", serif;
+
+    }
+
+
+footer {
+    background: #424040;
+background: linear-gradient(90deg,rgba(66, 64, 64, 1) 0%, rgba(92, 92, 94, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    text-align: center;
+    font-size: 20px;
+    padding: 0px;
+
+    
 }
+
+.redes {
+
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: aliceblue;
+    
+}
+
+.redes1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10px;
+    color: white;
+    }
