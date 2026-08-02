@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    flex: 1;
+}
+
+.menu {
+    padding: 10 px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    text decoration: none;
+     }
+.menu_link{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-size: 30px;
+    font-family: "Noto Serif Display", serif;
+
+}
+.menu_list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 30px
+   
+    
+}
+header{
+    background: #111212;
+background: linear-gradient(90deg,rgba(17, 18, 18, 1) 0%, rgba(31, 45, 171, 1) 50%, rgba(13, 12, 11, 1) 100%);
+
+}
+span{
+    color: white;
+}
